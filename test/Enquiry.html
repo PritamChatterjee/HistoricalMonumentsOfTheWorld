@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<script>
+
+function validateForm() {
+    
+        alert("Your feedback has been sent successfully!");
+        
+	
+}
+</script>
+
+<link rel="stylesheet" type="text/css" media="all" href="Files\CSS1.css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Feedbacks</title>
+</head>
+
+<body background="bg.jpg">
+
+<div class="container">
+  <header>
+  <nav>
+      <ul>
+      <li><img src="Files/Logo.jpg" width="100" height="50" /></li>
+      	<li><a href="Homepage.html">Home</a></li>
+        <li><a href="North.html">North</a></li>
+        <li><a href="South.html">South</a></li>
+        <li><a href="East.html">East</a></li>
+        <li><a href="West.html">West</a></li>
+        <li><a href="WW.html">World Wonders</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a class="active" href="#">Enquiry</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+        <li style="float:right"><a href="AboutUs.html">About Us</a></li>
+      </ul>
+    </nav>
+
+  </header>
+    
+    <div class="sidebar1">
+    <!-- Helps to control the width of the image slider. -->
+    </div>
+    
+  <article class="content">
+    
+    	<section>
+		
+        <form name="myForm" action="Homepage.html" method="post" onsubmit="return validateForm()">
+      <br /><br /><br /><br />
+        <h1>Feedback</h1><br />
+        <label for="mail">Name:</label>
+        <input type="text" id="name" name="user_name" required>
+        <label for="textarea">Message:</label>
+        <textarea rows="4" cols="50" style="resize:none">
+
+</textarea>
+		
+          
+        
+        
+        <button type="submit">Submit</button>
+      </form>
+      
+      <br /><br /><br /><br /><br />   
+      
+        
+        
+        </section>
+        
+  </article>
+  
+  <footer>
+    <p style="font-size:11px">For enquiries simply call our landline: +473 5555 5555 or visit our official site <a href="http://www.johnclarkhistoricmonuments.com/HistoricalMonuments.html">http://www.johnclarkhistoricmonuments.com/HistoricalMonuments.html</a><br /></p>
+    <address>
+           <ul class="followus">
+           <li>&nbsp;&nbsp;Follow Us: </li>
+           
+      <li><a href="https://twitter.com/Claaaark98">Twitter</a></li>
+      <li><a href="https://www.facebook.com">Facebook</a></li>
+      <li><a href="https://www.instagram.com">Instagram</a></li>
+      </ul>
+    </address>
+  </footer>
+  <!-- end .container --></div>
+</body>
+</html>
